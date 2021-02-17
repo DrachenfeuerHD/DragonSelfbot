@@ -50,9 +50,6 @@ client.on('message', function(message) {
         case "clear":
             Commands.clear(message);
             break;
-        case "prefix":
-            Commands.prefix(message);
-            break;
         case "kickall":
             Commands.kickall(message);
             break;
